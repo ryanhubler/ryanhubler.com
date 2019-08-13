@@ -41,3 +41,22 @@ footer{
     color: black;
     font-size: 20px;
 }
+/* unvisited link */
+div:link {
+  color: red;
+}
+
+/* visited link */
+div:visited {
+  color: green;
+}
+
+/* mouse over link */
+div:hover {
+  color: hotpink;
+}
+
+/* selected link */
+div:active {
+  color: blue;
+}
