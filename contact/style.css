@@ -24,14 +24,12 @@ ul {
   }
   
   li a.active {
-    color: white;
+    color: black;
     background-color: #4CAF50;
   }
   body 
   {
   background-color: #282828;
-  }
-  div{
     text-align: center;
     color: black;
     font-size: 45px;
@@ -42,21 +40,21 @@ footer{
     font-size: 20px;
 }
 /* unvisited link */
-div:link {
+a:link {
   color: red;
 }
 
 /* visited link */
-div:visited {
+a:visited {
   color: green;
 }
 
 /* mouse over link */
-div:hover {
+a:hover {
   color: hotpink;
 }
 
 /* selected link */
-div:active {
+a:active {
   color: blue;
 }
